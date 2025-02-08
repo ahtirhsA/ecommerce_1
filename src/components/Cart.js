@@ -14,7 +14,7 @@ const Cart = () => {
               <img src={i.image} alt={i.title} className="cart-image" />
               <div className="cart-details">
                 <h3 className="cart-title">{i.title}</h3>
-                <span className="cart-price">${i.price.toFixed(2)}</span>
+                <span className="cart-price">${i.price}</span>
               </div>
             </li>
           ))}
