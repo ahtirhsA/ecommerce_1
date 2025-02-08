@@ -10,7 +10,8 @@ const ProductContext=React.createContext(
         updateProduct:()=>{},
         deleteProduct:()=>{},
         cart:[],
-        addCartFunc:()=>{}
+        addCartFunc:()=>{},
+        
     }
 )
 
