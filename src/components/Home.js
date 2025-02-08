@@ -15,9 +15,14 @@ const Home=()=>{
        navigate('/form')
    }
 
+   const cartFuncc=()=>{
+    navigate('/cart')
+   }
+
     return (
         <div>
             <button onClick={addFunc}> Add </button>
+            <button onClick={cartFuncc}>Cart</button>
             <ul>
                 {
                    vendors.map((i)=><Products key={i.id} obj={i}/>) 

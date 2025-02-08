@@ -23,9 +23,10 @@ const Products=(props)=>{
         deleteProduct(id)
     }
 
-    const addItem=()=>{
+    const cartFunc=()=>{
         addCartFunc(obj)
     }
+    
 
     return(
         <li>
@@ -37,7 +38,7 @@ const Products=(props)=>{
             </div>
             <button onClick={updFunc}> Edit </button>
             <button onClick={delFunc}> Delete </button>
-            <button onClick={addItem}> Add to cart </button>
+            <button onClick={cartFunc}> Add to cart </button>
         </li>
     )
 }

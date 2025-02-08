@@ -19,7 +19,6 @@ const Login = () => {
 
     if (validUser) {
       alert('Login successful!');
-      localStorage.setItem('loggedInUser', JSON.stringify(validUser)); // Store logged-in user
       userFunc(username)
       navigate('/home'); // Redirect to home or dashboard
     } else {
